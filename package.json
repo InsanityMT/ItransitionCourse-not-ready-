@@ -1,0 +1,23 @@
+{
+  "name": "itrkurs",
+  "version": "1.0.0",
+  "description": "Itransition kurs project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "react",
+    "node"
+  ],
+  "author": "Mikhail Turchynski <mr.turchik_20022@mail.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^6.4.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13"
+  }
+}
