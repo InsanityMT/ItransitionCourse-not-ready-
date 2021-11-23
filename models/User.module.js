@@ -8,7 +8,7 @@ const schema = new Schema({
     status: { type: String,  required: true },
     language: { type: String, required: true },
     theme: { type: String, required: true },
-
+    img: { type: Array, required: true}
 })
 
 module.exports = model('User', schema)
