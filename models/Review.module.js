@@ -12,4 +12,7 @@ const schema = new Schema({
     avgUsersMark: { type: Array, required: true},
     imgS: { type: Array, required: true }
 })
+{
+
+}
 module.exports = model('Review', schema)

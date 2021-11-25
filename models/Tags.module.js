@@ -6,7 +6,6 @@ const tagSchema = new Schema({
     reviews: { type: Array, required: true }
 })
 
-// const tagModel = model("tags", tagSchema)
-// module.exports = tagModel
+
 
 module.exports = model("tags", tagSchema)
